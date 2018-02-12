@@ -1,5 +1,6 @@
 ## The following functions find the inverse of a matrix and creates a
 ## special matrix to cache the inverse as to save computation in the future.
+## Note: I did use Coursera course's makeVector and cacheMean as an outline.
 
 ## makeCacheMatrix creates a special "matrix" that caches its inverse in the 
 ## parent function. When first called, the inverse is set to null and a list
